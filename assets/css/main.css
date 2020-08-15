@@ -598,6 +598,10 @@ input, select, textarea {
 			padding: 0;
 		}
 
+	div.box{
+		text-align: center;
+	}
+
 /* Icon */
 
 	.icon {
