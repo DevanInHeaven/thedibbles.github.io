@@ -939,10 +939,6 @@ input, select, textarea {
 			padding: 0 12.00em 0 0;
 		}
 
-			ul.icons1 li:last-child {
-				padding-right: 1.5;
-			}
-
 			ul.icons1 li a {
 				border-radius: 100%;
 				box-shadow: inset 0 0 0 1px #ffffff;
