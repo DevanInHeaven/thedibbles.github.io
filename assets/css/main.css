@@ -1283,6 +1283,83 @@ input, select, textarea {
 			background-color: #000000;
 		}		
 
+/* BG */
+
+	#bg2 {
+		-moz-transform: scale(1.0);
+		-webkit-transform: scale(1.0);
+		-ms-transform: scale(1.0);
+		transform: scale(1.0);
+		-webkit-backface-visibility: hidden;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+	}
+
+		#bg2:before, #bg2:after {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+
+		#bg2:before {
+			-moz-transition: background-color 2.5s ease-in-out;
+			-webkit-transition: background-color 2.5s ease-in-out;
+			-ms-transition: background-color 2.5s ease-in-out;
+			transition: background-color 2.5s ease-in-out;
+			-moz-transition-delay: 0.75s;
+			-webkit-transition-delay: 0.75s;
+			-ms-transition-delay: 0.75s;
+			transition-delay: 0.75s;
+			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
+			z-index: 2;
+		}
+
+		#bg2:after {
+			-moz-transform: scale(1.125);
+			-webkit-transform: scale(1.125);
+			-ms-transform: scale(1.125);
+			transform: scale(1.125);
+			-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out;
+			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
+			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
+			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
+			background-image: url("../../images/Its_Getting_Cold_blur.jpg");
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			z-index: 1;
+		}
+
+		body.is-article-visible #bg2:after {
+			-moz-transform: scale(1.0825);
+			-webkit-transform: scale(1.0825);
+			-ms-transform: scale(1.0825);
+			transform: scale(1.0825);
+			-moz-filter: blur(0.2rem);
+			-webkit-filter: blur(0.2rem);
+			-ms-filter: blur(0.2rem);
+			filter: blur(0.2rem);
+		}
+
+		body.is-preload #bg2:before {
+			background-color: #000000;
+		}		
+
+
 /* Wrapper */
 
 	#wrapper {
@@ -1685,7 +1762,7 @@ input, select, textarea {
 					height: 2.5rem;
 					border-radius: 100%;
 					background-position: center;
-					background-image: url("../../images/Its_Getting_Cold_blur.jpg");
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");
 					background-size: 20px 20px;
 					background-repeat: no-repeat;
 				}
