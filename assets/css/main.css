@@ -927,7 +927,6 @@ input, select, textarea {
 				ul.icons li a:active {
 					background-color: rgba(255, 255, 255, 0.175);
 				}
-
 	ul.icons1 {
 		cursor: default;
 		list-style: none;
@@ -936,8 +935,12 @@ input, select, textarea {
 
 		ul.icons1 li {
 			display: inline-block;
-			padding: 0 12.00em 0 0;
+			padding: 0 0.75em 0 0;
 		}
+
+			ul.icons1 li:last-child {
+				padding-right: 0;
+			}
 
 			ul.icons1 li a {
 				border-radius: 100%;
