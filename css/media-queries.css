@@ -15,4 +15,8 @@
 		display: none;
 	}
 
+	select {
+		display: flex;
+	}
+
 }
