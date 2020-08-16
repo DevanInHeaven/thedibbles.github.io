@@ -43,15 +43,52 @@
                     <li><a href="us.html">Us</a></li>
                     <!--<li><a href="#elements">Elements</a></li>-->
                 </ul>
- 	<select name="sectional_nav" id="sectional_nav" class="form-control hidden-md-up" onchange="window.location.href=this.value">
+ 	<div class="search_categories">
+    <div class="select">
+                <select name="sectional_nav" id="sectional_nav" class="form-control hidden-md-up" onchange="window.location.href=this.value">
 	  <option value="0">NAVIGATE...</option>
 	  <option value="music.html">MUSIC</option>
 	  <option value="videos.html">VIDEOS</option>
 	  <option value="shop.html">SHOP</option>
 	  <option value="us.html">US</option>
-
+  
 	</select>
+          </div>
+ </div>
             </nav>
+            
+            <style>
+            .search_categories{
+  font-size: 13px;
+  padding: 10px 8px 10px 14px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+}
+
+.search_categories .select{
+  width: 120%;
+  background:url('arrow.png') no-repeat;
+  background-position:80% center;
+}
+
+.search_categories .select select{
+  background: transparent;
+  line-height: 1;
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+  width: 120%;
+  position: relative;
+  z-index: 10;
+  font-size: 1em;
+}
+
+            
+            </style>
+            
         </header>
 
         <!-- Main -->

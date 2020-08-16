@@ -4,15 +4,15 @@
 		display: none;
 	}
 
+	.search_categories .select select {
+		display: none;
+	}
+
 }
 @media only screen and (max-width:480px) {
 
 	#header nav ul {
 		display: none;
-	}
-
-	select {
-		display: flex;
 	}
 
 }
