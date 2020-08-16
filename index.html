@@ -6,6 +6,7 @@
 -->
 <html>
 
+
 <head>
     <title>The Dibbles | Official Site</title>
     <link rel="icon" href="images/Logo.ico">
@@ -52,7 +53,33 @@
 	  <option value="us.html">US</option>
 	</select>
             </nav>
-            
+            <Style>  
+        @media only screen and (max-width:1440px) {
+
+	select {
+		display: none;
+	}
+
+	.search_categories .select select {
+		display: none;
+	}
+
+}
+@media only screen and (max-width:480px) {
+
+	#header nav ul {
+		display: none;
+	}
+
+	select {
+		display: flex;
+	}
+
+}
+
+    
+    
+    </Style>
             <style>
             .search_categories{
   font-size: 13px;
