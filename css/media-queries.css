@@ -8,54 +8,12 @@
 		display: none;
 	}
 
-	h2 {
-		margin-left: 324px;
-		margin-top: -47px;
-	}
-
 }
 @media only screen and (max-width:736px) {
 
 	h2 {
-		margin-top: -43px;
-		margin-left: 290px;
-	}
-
-}
-@media only screen and (max-width:516px) {
-
-	h2 {
-		margin-left: 0%;
-		font-size: 1.5rem;
-		margin-top: -0%;
-	}
-
-}
-@media only screen and (max-width:480px) {
-
-	#header nav ul {
-		display: none;
-	}
-
-	select {
-		display: flex;
-		background-position: calc(100% - 8%) center;
-		text-overflow: ellipsis;
-		width: 
-		shape-margin: 
-		margin-right: auto;
-		background-size: 1.25rem;
-	}
-
-	#main article .close {
-		width: 4rem;
-		height: 4rem;
-		text-indent: 4rem;
-	}
-
-	h2 {
-		margin-top: 0%;
-		margin-left: 0%;
+		margin-left: 243px;
+		margin-top: -45px;
 	}
 
 }
