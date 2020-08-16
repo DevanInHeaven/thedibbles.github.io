@@ -1507,16 +1507,25 @@ input, select, textarea {
 
 		body.is-preload #bg4:before {
 			background-color: #000000;
-		}		
+		}
 
-.parent {
-    position: relative;
+/* Container holding the image and the text */
+.container {
+  position: relative;
 }
-.over-img {
-	position: absolute;
-    top: 10%;
-    left: 10%;
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 40px;
+  right: 420px;
+  background-color: transparent;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 5px;
 }
+
 /* Wrapper */
 
 	#wrapper {
