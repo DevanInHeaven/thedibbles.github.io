@@ -18,14 +18,14 @@ body.is-preload #header {
   /* line 27, /Users/devanmehta/Documents/GitHub/thedibbles.github.io/assets/sass/noscript.scss */
   body.is-preload #header > * {
     opacity: 1; }
-  /* line 36, /Users/devanmehta/Documents/GitHub/thedibbles.github.io/assets/sass/noscript.scss */
+  /* line 39, /Users/devanmehta/Documents/GitHub/thedibbles.github.io/assets/sass/noscript.scss */
   body.is-preload #header .content .inner {
     max-height: none;
     padding: 3rem 2rem;
     opacity: 1; }
 
 /* Main */
-/* line 48, /Users/devanmehta/Documents/GitHub/thedibbles.github.io/assets/sass/noscript.scss */
+/* line 51, /Users/devanmehta/Documents/GitHub/thedibbles.github.io/assets/sass/noscript.scss */
 #main article {
   opacity: 1;
   margin: 4rem 0 0 0; }

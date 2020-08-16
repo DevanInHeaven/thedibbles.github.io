@@ -2124,3 +2124,14 @@ body.is-article-visible #footer {
 body.is-preload #footer {
     opacity: 0;
 }
+
+select {
+      display: none;
+}
+
+select {
+    @media (max-width: 480px) {
+  nav ul     { display: none; }
+  nav select { display: inline-block; }
+}
+}
