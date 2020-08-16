@@ -947,7 +947,7 @@ button,
     background-color: #ffffff;
     color: #1b1f22 !important;
     font-weight: 600; }
-  /* line 71, /Users/devanmehta/Documents/GitHub/thedibbles.github.io/assets/sass/components/_button.scss */
+  /* line 69, /Users/devanmehta/Documents/GitHub/thedibbles.github.io/assets/sass/components/_button.scss */
   input[type="submit"].disabled, input[type="submit"]:disabled,
   input[type="reset"].disabled,
   input[type="reset"]:disabled,
@@ -961,7 +961,7 @@ button,
     cursor: default;
     opacity: 0.25; }
 
-/* line 79, /Users/devanmehta/Documents/GitHub/thedibbles.github.io/assets/sass/components/_button.scss */
+/* line 77, /Users/devanmehta/Documents/GitHub/thedibbles.github.io/assets/sass/components/_button.scss */
 input[type="submit"],
 input[type="reset"],
 input[type="button"],
@@ -1435,7 +1435,7 @@ button {
   body.is-preload #footer {
     opacity: 0; }
 
-/* line 51, /Users/devanmehta/Documents/GitHub/thedibbles.github.io/assets/sass/main.scss */
+/* line 50, /Users/devanmehta/Documents/GitHub/thedibbles.github.io/assets/sass/main.scss */
 .center {
   display: block;
   margin-left: auto;
