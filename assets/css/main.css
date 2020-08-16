@@ -1517,8 +1517,8 @@ input, select, textarea {
 /* Bottom right text */
 .text-block {
   position: absolute;
-  bottom: 40px;
-  right: 420px;
+  bottom: 5%;
+  right: 60%;
   background-color: transparent;
   color: white;
   padding-left: 20px;
