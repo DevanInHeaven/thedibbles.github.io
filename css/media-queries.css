@@ -4,35 +4,15 @@
 		display: none;
 	}
 
-	#header nav ul {
-		display: flex;
-		padding-left: 0px;
-	}
-
-}
-@media only screen and (max-width:504px) {
-
-	#header > * {
-		margin-top: 10%;
-	}
-
-	#header nav ul {
-		margin-bottom: 0px;
-	}
-
 }
 @media only screen and (max-width:480px) {
 
 	#header nav ul {
-		padding-left: 0px;
 		display: none;
 	}
 
 	select {
 		display: flex;
-		background-repeat: no-repeat;
-		background-position: calc(100% - 1rem) center;
-		background-size: 16%;
 	}
 
 }
