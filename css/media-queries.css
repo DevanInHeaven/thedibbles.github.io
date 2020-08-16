@@ -17,6 +17,18 @@
 
 	select {
 		display: flex;
+		background-position: calc(100% - 8%) center;
+		text-overflow: ellipsis;
+		width: 
+		shape-margin: 
+		margin-right: auto;
+		background-size: 1.25rem;
+	}
+
+	#main article .close {
+		width: 4rem;
+		height: 4rem;
+		text-indent: 4rem;
 	}
 
 }
