@@ -1509,6 +1509,14 @@ input, select, textarea {
 			background-color: #000000;
 		}		
 
+.parent {
+    position: relative;
+}
+.over-img {
+	position: absolute;
+    top: 10%;
+    left: 10%;
+}
 /* Wrapper */
 
 	#wrapper {
