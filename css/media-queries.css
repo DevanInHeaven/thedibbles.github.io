@@ -1,3 +1,17 @@
+@media only screen and (max-width:1920px) {
+
+	ul.icons1 li {
+		padding: 0px 11.5em 0px 80px;
+	}
+
+}
+@media only screen and (max-width:1679px) {
+
+	ul.icons1 li {
+		padding: 0px 11.5em 0px 8px;
+	}
+
+}
 @media only screen and (max-width:1440px) {
 
 	#header .content {
@@ -5,39 +19,19 @@
 	}
 
 }
+@media only screen and (max-width:1205px) {
 
-@media only screen and (max-width:444px) {
-
-	#header .content .inner > :last-child {
-		margin-bottom: 0px;
-	}
-
-	ul.icons1 li {
-		padding: 0px 11.5em 0px 0px;
-	}
-
-	#header nav ul li:first-child {
-		border-top-width: 0px;
-		border-left-width: 0px;
-	}
-
-	#header .content {
-		border-bottom-width: 1px;
-		margin-bottom: 0px;
-		margin-t: 85px;
-		margin-to: 85px;
-		margin-top: 0px;
-		position: static
-		display: none;
-		border-top-width: 1px;
-	}
-
-	select {
-		margin: -10% -30% -30% 0%;
-	}
+}
+@media only screen and (max-width:848px) {
 
 	#header .content .inner {
 		max-height: 100rem;
 	}
+
+}
+@media only screen and (max-width:827px) {
+
+}
+@media only screen and (max-width:460px) {
 
 }
