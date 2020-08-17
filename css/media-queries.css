@@ -1,6 +1,19 @@
 @media only screen and (max-width:1440px) {
 
+	#header .content {
+		display: block;
+	}
+
 }
-@media only screen and (max-width:736px) {
+@media only screen and (max-width:444px) {
+
+	#header .content {
+		display: 
+		border-style: solid;
+	}
+
+	#header .content .inner {
+		max-height: 100rem;
+	}
 
 }
