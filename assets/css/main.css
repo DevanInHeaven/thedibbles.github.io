@@ -1668,8 +1668,8 @@ body.is-preload #bg4:before {
 /* Bottom right text */
 .text-block {
     position: absolute;
-    bottom: 35%;
-    right: 0%;
+    bottom: 65%;
+    right: 10%;
     background-color: transparent;
     color: white;
     padding-left: 2%;
