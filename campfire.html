@@ -61,22 +61,86 @@
                     </section>
                 </div>
             </div>
-            <nav>
+                     <nav>
                 <ul>
-                    <li><a href="index.html">Home</a>
-
-
-                    </li>
-
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="music.html">Music</a></li>
                     <li><a href="videos.html">Videos</a></li>
                     <li><a href="shop.html">Shop</a></li>
                     <li><a href="us.html">Us</a></li>
                     <!--<li><a href="#elements">Elements</a></li>-->
-
-
                 </ul>
+
+                <select name="sectional_nav" id="sectional_nav" class="form-control hidden-md-up" onchange="window.location.href=this.value">
+                   
+                    <option value="0">CHOOSE</option>
+                                        <option value="index.html">HOME</option>
+
+                    <option value="music.html">MUSIC</option>
+                    <option value="videos.html">VIDEOS</option>
+                    <option value="shop.html">SHOP</option>
+                    <option value="us.html">US</option>
+                </select>
             </nav>
+
+            <Style>
+                select {
+
+                    font-family: inherit;
+                    columns: none;
+                    margin: -30%;
+                    padding: -5%;
+                    margin-top: -10%;
+                    margin-left: 0%;
+
+
+                }
+
+            </Style>
+            <Style>
+                @media only screen and (max-width:1440px) {
+
+                    select {
+                        display: none;
+                    }
+
+                    .search_categories .select select {
+                        display: none;
+                    }
+
+                }
+
+                @media only screen and (max-width:480px) {
+
+                    #header nav ul {
+                        display: none;
+                    }
+
+                    select {
+                        display: flex;
+                    }
+
+                }
+
+            </Style>
+            <style>
+                .search_categories {
+                    font-size: 13px;
+                    padding: 10px 8px 10px 14px;
+                    background: #fff;
+                    border: 1px solid #ccc;
+                    border-radius: 6px;
+                    overflow: hidden;
+                    position: relative;
+                }
+
+                .search_categories .select {
+                    width: 120%;
+                    background: url('arrow.png') no-repeat;
+                    background-position: 80% center;
+                }
+
+            </style>
         </header>
 
 
