@@ -1100,6 +1100,39 @@ ul.icons2 li a:hover {
 ul.icons2 li a:active {
     background-color: rgba(255, 255, 255, 0.175);
 }
+
+ul.icons3 {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.icons3 li {
+    display: inline-block;
+    padding: 0 4.00em 0 0;
+}
+
+ul.icons3 li:last-child {
+    padding-right: 0;
+}
+
+ul.icons3 li a {
+    border-radius: 100%;
+    box-shadow: inset 0 0 0 1px #ffffff;
+    display: inline-block;
+    height: 2.25rem;
+    line-height: 2.25rem;
+    text-align: center;
+    width: 2.25rem;
+}
+
+ul.icons3 li a:hover {
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+ul.icons3 li a:active {
+    background-color: rgba(255, 255, 255, 0.175);
+}
 /* Table */
 
 .table-wrapper {
