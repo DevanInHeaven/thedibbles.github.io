@@ -62,10 +62,24 @@
 
 
                         <div id="contentframe" style="position:relative; top: 40px; left: 0px;">
-                            <iframe width="700px" height="440px" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/958388935&color=%234c8af3&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                         <iframe class = 'lg' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/958388935&color=%234c8af3&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                            <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>
+                            
+                                  <div id="contentframe" style="position:relative; top: 40px; left: 0px;">
+                            <iframe class = 'sm' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/958388935&color=%234c8af3&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
                             <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>
 
+<style>
+    @media (max-width: 719px) { //set max width to your preferred mobile width.  I used 719 because your large banner is 720.
+    .lg {display:none;}
+    .sm {display:initial;}
+}
 
+@media (min-width: 720px) { //set min width to be larger than the css rule above.
+    .lg {display:initial;}
+    .sm {display:none;}
+}
+                            </style>
 
 
 
