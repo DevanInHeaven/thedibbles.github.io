@@ -1,20 +1,6 @@
 @media only screen and (max-width:1920px) {
 
 }
-@media only screen and (max-width:1440px) {
-
-	.column {
-		display: flex;
-	}
-
-	.row {
-		display: flex;
-	}
-
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-	}
-
-}
 @media only screen and (max-width:1081px) {
 
 	.image-slider div img {
@@ -36,20 +22,12 @@
 		display: none;
 	}
 
+	#header > :first-child {
+		margin-top: 0px;
+		margin-bottom: 40px;
+	}
+
 }
-@media only screen and (max-width:749px) {
-
-	.image-slider div img {
-		display: none;
-	}
-
-	.column img {
-		display: flex;
-	}
-
-	.image-slider div {
-		opacity: 1;
-		display: none;
-	}
+@media only screen and (max-width:736px) {
 
 }
