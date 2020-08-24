@@ -1,29 +1,3 @@
-@media only screen and (max-width:1440px) {
-
-<<<<<<< HEAD
-	#header > :first-child {
-		margin-top: 0px;
-		margin-b: 070px;
-		margin-bo: 070px;
-		margin-bot: 070px;
-		margin-bott: 070px;
-		margin-botto: 070px;
-		margin-bottom: 070px;
-		margin-t: 790px;
-		margin-to: 790px;
-	}
-
-	#header {
-		margin-bottom: 700px;
-		position: relative;
-		flex-direction: column;
-=======
-	#header .content .inner {
-		max-height: 90rem;
->>>>>>> parent of c5685cf... t
-	}
-
-}
 @media only screen and (max-width:1081px) {
 
 	.image-slider div img {
@@ -32,6 +6,10 @@
 
 	.image-slider div {
 		display: block;
+	}
+
+	#header > :first-child {
+		margin-top: 0px;
 	}
 
 }
