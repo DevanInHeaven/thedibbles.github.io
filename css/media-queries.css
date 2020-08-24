@@ -1,3 +1,10 @@
+@media only screen and (max-width:1441px) {
+
+	#header .content .inner {
+		max-height: 0rem;
+	}
+
+}
 @media only screen and (max-width:1081px) {
 
 	.image-slider div img {
