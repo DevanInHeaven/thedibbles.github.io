@@ -1874,8 +1874,8 @@ body.is-preload #bg5:before {
     -webkit-transition: opacity 0.325s ease-in-out;
     -ms-transition: opacity 0.325s ease-in-out;
     transition: opacity 0.325s ease-in-out;
-    position: relative
-    margin-top: 14rem;
+    position: relative;
+    margin-top: 0rem;
 }
 
 #header > *:before {
