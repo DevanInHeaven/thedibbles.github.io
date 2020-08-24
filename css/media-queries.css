@@ -1,24 +1,21 @@
-@media only screen and (max-width:2560px) {
+@media only screen and (max-width:1440px) {
 
-	#header {
-		text-align: center;
+	#header > :first-child {
 		margin-top: 0px;
-		max-width: 100%;
-		background-image: radial-gradient(rgba(0, 0, 0, 0.247059) 25%, rgba(0, 0, 0, 0) 55%);
-		position: absolute;
-		margin-b: 0px;
-		margin-bo: 0px;
-		margin-bot: 0px;
-		margin-bott: 0px;
-		margin-botto: 0px;
-		margin-bottom: 0px;
-		margin-t: 0px;
-		margin-to: 0px;
+		margin-b: 070px;
+		margin-bo: 070px;
+		margin-bot: 070px;
+		margin-bott: 070px;
+		margin-botto: 070px;
+		margin-bottom: 070px;
+		margin-t: 790px;
+		margin-to: 790px;
 	}
 
-	#header .content {
-		margin-bottom: 0px;
-		position: absolute;
+	#header {
+		margin-bottom: 700px;
+		position: relative;
+		flex-direction: column;
 	}
 
 }
