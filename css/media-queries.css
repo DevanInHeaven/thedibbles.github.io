@@ -1,7 +1,24 @@
 @media only screen and (max-width:2560px) {
 
-	#header .content .inner {
-		max-height: 90rem;
+	#header {
+		text-align: center;
+		margin-top: 0px;
+		max-width: 100%;
+		background-image: radial-gradient(rgba(0, 0, 0, 0.247059) 25%, rgba(0, 0, 0, 0) 55%);
+		position: absolute;
+		margin-b: 0px;
+		margin-bo: 0px;
+		margin-bot: 0px;
+		margin-bott: 0px;
+		margin-botto: 0px;
+		margin-bottom: 0px;
+		margin-t: 0px;
+		margin-to: 0px;
+	}
+
+	#header .content {
+		margin-bottom: 0px;
+		position: absolute;
 	}
 
 }
