@@ -15,192 +15,6 @@
     <link rel="stylesheet" href="css/media-queries.css" />
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-    <style>
-        @media only screen and (max-width:1920px) {
-            span {
-                display: none;
-            }
-
-            .column img {
-                display: none;
-            }
-
-            .image-slider div img {
-                display: flex;
-            }
-        }
-           @media only screen and (max-width:2560px) {
-            span {
-                display: none;
-            }
-
-            .column img {
-                display: none;
-            }
-
-            .image-slider div img {
-                display: flex;
-            }
-        }
-
-        @media only screen and (max-width:1440px) {
-
-            .column img {
-                display: none;
-            }
-
-            .image-slider div img {
-                display: flex;
-            }
-
-            html,
-            body,
-            div,
-            span,
-            applet,
-            object,
-            iframe,
-            h1,
-            h2,
-            h3,
-            h4,
-            h5,
-            h6,
-            p,
-            blockquote,
-            pre,
-            a,
-            abbr,
-            acronym,
-            address,
-            big,
-            cite,
-            code,
-            del,
-            dfn,
-            em,
-            img,
-            ins,
-            kbd,
-            q,
-            s,
-            samp,
-            small,
-            strike,
-            strong,
-            sub,
-            sup,
-            tt,
-            var,
-            b,
-            u,
-            i,
-            center,
-            dl,
-            dt,
-            dd,
-            ol,
-            ul,
-            li,
-            fieldset,
-            form,
-            label,
-            legend,
-            table,
-            caption,
-            tbody,
-            tfoot,
-            thead,
-            tr,
-            th,
-            td,
-            article,
-            aside,
-            canvas,
-            details,
-            embed,
-            figure,
-            figcaption,
-            footer,
-            header,
-            hgroup,
-            menu,
-            nav,
-            output,
-            ruby,
-            section,
-            summary,
-            time,
-            mark,
-            audio,
-            video {
-                display: bl;
-                font-weight:100;
-                vertical-align vertical-align: baseline;
-            }
-
-            article,
-            aside,
-            details,
-            figcaption,
-            figure,
-            footer,
-            header,
-            hgroup,
-            menu,
-            nav,
-            section {
-                display: block;
-                visability:
-                    visibility: hidden;
-            }
-
-            .shop {
-                display: none;
-            }
-
-            *,
-            ::before,
-            ::after {
-                display:
-                    box-sizing: inherit;
-            }
-
-            .image-slider div {
-                display: block;
-            }
-
-        }
-
-        @media only screen and (max-width:1081px) {
-
-            .image-slider div img {
-                display: flex;
-            }
-
-            .image-slider div {
-                display: block;
-            }
-
-        }
-
-        @media only screen and (max-width:749px) {
-
-            .image-slider div img {
-                display: none;
-            }
-
-            .column img {
-                display: flex;
-            }
-
-            .image-slider div {
-                opacity: 1;
-                display: none;
-            }
-
-        }
-    </style>
 </head>
 
 <body class="is-preload">
@@ -214,13 +28,27 @@
                 <div class="inner">
 
                     <style>
-                        @media only screen and (max-width:1440px) {
+                  
+@media only screen and (max-width:1440px) {
 
-                            #header .content .inner {
-                                max-height: 90rem;
-                            }
+	#header .content .inner {
+		max-height: 50rem;
+	}
 
-                        }
+}
+@media only screen and (max-width:1097px) {
+
+}
+@media only screen and (max-width:736px) {
+
+}
+@media only screen and (max-width:600px) {
+
+	#header .content .inner {
+		max-height: 80rem;
+	}
+
+}
                     </style>
                     <header>
                         <h1>Us</h1>
@@ -242,6 +70,7 @@
                         header>h1 {
                             display: inline-block;
                         }
+
                     </style>
 
                     <div>
@@ -254,37 +83,21 @@
 
                     <section>
 
-
-
+                        <br>
+                   <br>
 
                         <div class="row">
                             <div class="column">
                                 <img src="images/devan.jpeg">
-                                <br>
-                                <br>
-                                <span> <a href="https://flow.page/devanmehta" class="shop">Devan Mehta's Bio/Links</a></span>
-                                <img src="images/yiling.png">
-                                <br>
-                                <br>
-
-                                <span> <a href="https://flow.page/yilinghu" class="shop">Yiling Hu's Bio/Links</a></span>
-                                <style>
-                                    @media only screen and (max-width:1440px) {
-
-                                        span {
-                                            display: none;
-
-                                        }
-
-                                        @media only screen and (max-width:749px) {
-                                            span {
-                                                display: block;
-
-                                            }
-                                </style>
+                                <a href="https://flow.page/devanmehta" class="shop">Devan Mehta's Bio/Links</a>
 
                             </div>
+                            <div class="column">
+                                <img src="images/yiling.png">
+                                <a href="https://flow.page/yilinghu" class="shop">Yiling Hu's Bio/Links</a>
+                            </div>
                         </div>
+
 
                         <style>
                             .row {
@@ -296,12 +109,12 @@
                             /* Create four equal columns that sits next to each other */
                             .column {
                                 flex: 50%;
-                                max-width: 25%;
-                                padding: 0 4px;
+                                max-width: 50%;
+                                padding: 0 15px;
                             }
 
                             .column img {
-                                margin-top: 40px;
+                                margin-top: 8px;
                                 vertical-align: middle;
                                 width: 100%;
                             }
@@ -321,37 +134,11 @@
                                     max-width: 100%;
                                 }
                             }
+
                         </style>
 
 
 
-                        <div class="image-slider">
-                            <div><img src="images/devan.jpeg"></div>
-                            <div> <a href="https://flow.page/devanmehta" class="shop">Devan Mehta's Bio/Links</a></div>
-                            <div><img src="images/yiling.png"></div>
-                            <div> <a href="https://flow.page/yilinghu" class="shop">Yiling Hu's Bio/Links</a></div>
-                        </div>
-
-
-
-                        <style>
-                            .image-slider {
-                                display: flex;
-                                overflow-y: scroll;
-                            }
-
-                            .image-slider div {
-                                flex: 1;
-                                opacity: 1;
-                                margin: 5px;
-                            }
-
-                            .image-slider div img {
-                                width: 100%;
-                                height: auto;
-                                min-width: 125px;
-                            }
-                        </style>
                 </div>
 
                 </section>
@@ -381,17 +168,18 @@
                         font-family: inherit;
                         font-size: 20px;
                     }
+
                 </style>
                 <style>
                     .shop {
                         background-color: #f02828;
-                        border-radius: 42px;
+                        border-radius: 10px;
                         display: inline-block;
                         cursor: pointer;
                         color: #ffffff;
                         font-family: Trebuchet MS;
                         font-size: 18px;
-                        padding: 19px 32px;
+                        padding: 9px 24px;
                         text-decoration: none;
                     }
 
@@ -403,6 +191,7 @@
                         position: relative;
                         top: 1px;
                     }
+
                 </style>
             </div>
 
@@ -436,6 +225,7 @@
 
 
                 }
+
             </Style>
             <Style>
                 @media only screen and (max-width:1440px) {
@@ -461,6 +251,7 @@
                     }
 
                 }
+
             </Style>
             <style>
                 .search_categories {
@@ -478,6 +269,7 @@
                     background: url('arrow.png') no-repeat;
                     background-position: 80% center;
                 }
+
             </style>
 
         </header>
