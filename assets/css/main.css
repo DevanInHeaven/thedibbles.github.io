@@ -1520,7 +1520,7 @@ body.is-preload #bg1:before {
     -webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
     -ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
     transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-    background-image: url("../../images/Its_Getting_Cold_blur.jpg");
+    background-image: url("../../images/blurd.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
