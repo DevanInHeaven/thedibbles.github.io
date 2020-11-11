@@ -6,16 +6,25 @@
 -->
 <html>
 
-
 <head>
-    <title>The Dibbles | Official Site</title>
+    <title>Live Release Updates | The Dibbles</title>
     <link rel="icon" href="images/Logo.ico">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript>
-        <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
+    <noscript>
+        <style>
+            section {
+
+                width: 400px;
+                height: 40px;
+            }
+
+        </style>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    
 </head>
 
 <body class="is-preload">
@@ -24,27 +33,13 @@
     <div id="wrapper">
 
         <!-- Header -->
-        <header id="header">
-            <div class="content">
-                <div class="inner">
-                    <h1>The Dibbles</h1>
-                    <ul class="icons">
-                        <li><a href="https://music.apple.com/us/artist/the-dibbles/1519447557" class="icon brands fa-apple"><span class="label">Apple Music</span></a></li>
-                        <li><a href="https://open.spotify.com/artist/607jiaqsGFqmTkY9fn05IO?si=cNBr007rRRaLWMmDsEqkWg" class="icon brands fa-spotify"><span class="label">Spotify</span></a></li>
-                        <li><a href="https://soundcloud.com/the-dibbles" class="icon brands fa-soundcloud"><span class="label">SoundCloud</span></a></li>
-                        <li><a href="https://www.youtube.com/channel/UCKVx3o2YSyiXxe1Ieq32N0g?view_as=subscriber" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
-                        <li><a href="https://twitter.com/dibbles_the" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                    </ul>
-
-
-
-                </div>
-            </div>
+        <header id="header">         
             
-            <nav>
+                      <nav>
                 <ul>
+                                        <li><a href="index.html">Home</a></li>
+
                     <li><a href="music.html">Music</a></li>
-                    <li><a href="feed.html">Feed</a></li>
                     <li><a href="videos.html">Videos</a></li>
                     <li><a href="shop.html">Shop</a></li>
                     <li><a href="us.html">Us</a></li>
@@ -53,8 +48,9 @@
 
                 <select name="sectional_nav" id="sectional_nav" class="form-control hidden-md-up" onchange="window.location.href=this.value">
                     <option value="0">CHOOSE</option>
+                       <option value="index.html">HOME</option>
                     <option value="music.html">MUSIC</option>
-                    <option value="feed.html">FEED</option>
+                 
                     <option value="videos.html">VIDEOS</option>
                     <option value="shop.html">SHOP</option>
                     <option value="us.html">US</option>
@@ -116,145 +112,65 @@
                     background-position: 80% center;
                 }
             </style>
+                   
+            <div class="">
+                <style>
+                    @media only screen and (max-width:736px) {
 
-        </header>
+                        #header> :first-child {
+                            margin-top: 0px;
+                            margin-bottom: 40px;
+                        }
+
+                    }
+
+                </style>
+                <div class="">
+                    <style>
+                        h1 {
+                            color: mediumspringgreen;
+                            font-size: 23px;
+
+                            letter-spacing: normal;
+                            font-weight: normal;
 
 
 
-        <footer id="footer">
-            <p>Devan Mehta & Yiling Hu</p>
-        </footer>
+                        }
+
+                    </style>
+                    <style>
+                        h19 {
+                            font-weight: 900;
+                            color: white;
+                            font-size: 19px;
+                            opacity: 0.62;
+                        }
+
+                    </style>
+       
+           
+           <a class="twitter-timeline" data-width=525px data-chrome="transparent nofooter"   data-lang="en" data-theme="dark" href="https://twitter.com/dibbles_the?ref_src=twsrc%5Etfw">Tweets by dibbles_the</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+                    
+                   
+
+
+                </div>
+            </div>
+
+
+    </div>
+    </div>
+    </header>
+
+    <footer id="footer">
+        <p></a> </p>
+    </footer>
 
     </div>
 
     <!-- BG -->
-
-
-    <div id="bg"></div>
-    <div id="bg90"></div>
-     <div id="bg91"></div>
-    <div id="bg99"></div>
-    <div id="bg96"></div>
-    
-    <style>
-         @media only screen and (max-width:7000px) {
-
-	#bg {
-		display: none;
-	}
-#bg96 {
-		display: none;
-	}
-	#bg91 {
-		display: none;
-	}
-
-	#bg90 {
-		display: flex;
-	}
-#bg99 {
-		display: none;
-	}
-}
-    @media only screen and (max-width:1440px) {
-
-	#bg {
-		display: none;
-	}
-#bg96 {
-		display: none;
-	}
-	#bg91 {
-		display: none;
-	}
-
-	#bg90 {
-		display: flex;
-	}
-#bg99 {
-		display: none;
-	}
-}
-@media only screen and (max-width:915px) {
-#bg96 {
-		display: none;
-	}
-	#bg90 {
-		display: none;
-	}
-
-	#bg91 {
-		display: flex;
-	}
-	#bg {
-		display: none;
-	}
-    #bg99 {
-		display: none;
-	}
-}
-        @media only screen and (max-width:743px) {
-#bg96 {
-		display: none;
-	}
-	#bg90 {
-		display: none;
-	}
-
-	#bg91 {
-		display: none;
-	}
-	#bg {
-		display: none;
-	}
-    #bg99 {
-		display: flex;
-     
-	}
-}
-@media only screen and (max-width:695px) {
-#bg96 {
-		display: none;
-	}
-	#bg {
-		display: flex;
-		z-index: 1;
-		height: 100vh;
-		left: 0px;
-		top: 0px;
-	}
-#bg90 {
-		display: none;
-	}
-	#bg91 {
-		display: none;
-		left: 0px;
-		width: 100%;
-	}
-#bg99 {
-		display: none;
-	}
-}
-@media only screen and (max-width:486px) {
-#bg96 {
-		display: flex;
-	}
-	#bg {
-		display: none;
-	}
-#bg90 {
-		display: none;
-	}
-	#bg91 {
-		display: none;
-	}
-#bg99 {
-		display: none;
-	}
-}
-    </style>
-
-
+<div id="bg16"></div>
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/browser.min.js"></script>
