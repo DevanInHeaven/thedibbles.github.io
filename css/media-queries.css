@@ -1,4 +1,52 @@
+@media only screen and (max-width:7000px) {
 
+	#bg {
+		display: none;
+	}
+
+	#bg96 {
+		display: none;
+	}
+
+	#bg91 {
+		display: none;
+	}
+
+	#bg90 {
+		display: flex;
+	}
+
+	#bg99 {
+		display: none;
+	}
+
+}
+@media only screen and (max-width:1920px) {
+
+}
+@media only screen and (max-width:1440px) {
+
+	#bg {
+		display: none;
+	}
+
+	#bg96 {
+		display: none;
+	}
+
+	#bg91 {
+		display: none;
+	}
+
+	#bg90 {
+		display: flex;
+	}
+
+	#bg99 {
+		display: none;
+	}
+
+}
 @media only screen and (max-width:1097px) {
 
 	#wrapper {
@@ -6,49 +54,12 @@
 	}
 
 }
-
-         @media only screen and (max-width:7000px) {
-
-	#bg {
-		display: none;
-	}
-#bg96 {
-		display: none;
-	}
-	#bg91 {
-		display: none;
-	}
-
-	#bg90 {
-		display: flex;
-	}
-#bg99 {
-		display: none;
-	}
-}
-    @media only screen and (max-width:1440px) {
-
-	#bg {
-		display: none;
-	}
-#bg96 {
-		display: none;
-	}
-	#bg91 {
-		display: none;
-	}
-
-	#bg90 {
-		display: flex;
-	}
-#bg99 {
-		display: none;
-	}
-}
 @media only screen and (max-width:915px) {
-#bg96 {
+
+	#bg96 {
 		display: none;
 	}
+
 	#bg90 {
 		display: none;
 	}
@@ -56,17 +67,28 @@
 	#bg91 {
 		display: flex;
 	}
+
 	#bg {
 		display: none;
 	}
-    #bg99 {
+
+	#bg99 {
 		display: none;
 	}
+
 }
-        @media only screen and (max-width:743px) {
-#bg96 {
+@media only screen and (max-width:890px) {
+
+}
+@media only screen and (max-width:827px) {
+
+}
+@media only screen and (max-width:743px) {
+
+	#bg96 {
 		display: none;
 	}
+
 	#bg90 {
 		display: none;
 	}
@@ -74,51 +96,60 @@
 	#bg91 {
 		display: none;
 	}
+
 	#bg {
 		display: none;
 	}
-    #bg99 {
+
+	#bg99 {
 		display: flex;
-     
 	}
+
+}
+@media only screen and (max-width:720px) {
+
 }
 @media only screen and (max-width:695px) {
-#bg96 {
+
+	#bg96 {
 		display: none;
 	}
-	#bg {
-		display: flex;
-		z-index: 1;
-		height: 100vh;
-		left: 0px;
-		top: 0px;
-	}
-#bg90 {
+
+	#bg90 {
 		display: none;
 	}
+
 	#bg91 {
 		display: none;
 		left: 0px;
 		width: 100%;
 	}
-#bg99 {
+
+	#bg99 {
 		display: none;
 	}
+
 }
 @media only screen and (max-width:486px) {
-#bg96 {
+
+	#bg96 {
 		display: flex;
 	}
+
 	#bg {
 		display: none;
 	}
-#bg90 {
+
+	#bg90 {
 		display: none;
 	}
+
 	#bg91 {
 		display: none;
 	}
-#bg99 {
+
+	#bg99 {
 		display: none;
 	}
+
 }
